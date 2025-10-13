@@ -126,3 +126,10 @@ footer i {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.floating-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
