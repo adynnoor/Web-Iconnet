@@ -30,14 +30,10 @@ body {
     font-size: 16px;
 }
 
-.card {
-    transition: transform 0.3s;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-.card:hover {
-    transform: translateY(-5px);
+.kotak:hover{
+    transition: 1s ease;
+    transform: scale(1.1);
 }
 
 .table th {
@@ -81,6 +77,18 @@ footer i {
 
 .font-iconnet{
     color: #0093ae;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.font-iconnet-putih{
+    color: white;
+     font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.font-iconnet-hitam{
+    color: black;
      font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -132,4 +140,16 @@ footer i {
     bottom: 20px;
     right: 20px;
     z-index: 1000;
+}
+
+.bg-biru{
+    background-color: #0093ae;
+}
+.bg-putih{
+    background-color: white;
+}
+
+.kotak-mmk{
+    height: auto;
+
 }
