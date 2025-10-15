@@ -158,3 +158,7 @@ footer i {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.font-align-harga{
+    align-content: space-around;
+}
