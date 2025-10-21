@@ -97,6 +97,9 @@ footer i {
 .logokecil{
     max-height: 40px;
 }
+.logokecil1{
+    max-height: 25px;
+}
 
 .btn-info{
     background-color: #0093ae;
@@ -108,6 +111,22 @@ footer i {
     color: aliceblue;
     border: none;
 } 
+.btn-outline-info{
+    background-color: #0093ae;
+    color: aliceblue;
+    border: none;
+     --bs-btn-color: #0093ae;
+}
+
+.btn-check:checked+.btn{
+    color: white;
+    background-color: #015f70;
+    border-color: none;
+}
+
+
+
+
 .bi-check2{
     color: #0093ae;
 }
@@ -163,3 +182,7 @@ footer i {
     align-content: space-around;
 }
 
+.ukr-img{
+    max-width: 200px;
+    max-height: 200px;
+}
